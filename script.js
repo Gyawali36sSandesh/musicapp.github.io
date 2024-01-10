@@ -75,7 +75,7 @@ return songs
 }
 
 const playMusic = (track, pause=false) => {
-    currentSong.src = `/${currFolder}/` + track
+    currentSong.src = `https://raw.githubusercontent.com/Gyawali36sSandesh/musicapp.github.io/main/${currFolder}/` + track
     if(!pause){
     currentSong.play()
     play.src = "img/pause.svg"
